@@ -137,7 +137,7 @@ export const Button = {
             background: 'none',
             backgroundColor: 'transparent',
             border: 'none',
-            color: '#33475B', // Using primary color for text
+            color: '#33475B',
             _hover: {
                 color: '#2a3b4c',
                 backgroundColor: 'rgba(51, 71, 91, 0.05)',
@@ -157,7 +157,7 @@ export const Button = {
             background: 'none',
             backgroundColor: 'transparent',
             border: 'none',
-            color: '#0091AE', // Using secondary color for text
+            color: '#0091AE',
             _hover: {
                 color: '#007a93',
                 backgroundColor: 'rgba(0, 145, 174, 0.05)',
@@ -177,7 +177,7 @@ export const Button = {
             background: 'none',
             backgroundColor: 'transparent',
             border: 'none',
-            color: '#FF7A53', // Using tertiary color for text
+            color: '#FF7A53',
             _hover: {
                 color: '#e86e4a',
                 backgroundColor: 'rgba(255, 122, 83, 0.05)',

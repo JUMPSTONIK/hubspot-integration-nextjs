@@ -13,7 +13,6 @@ import {
 } from '@chakra-ui/react'
 
 export default function TextShowcase() {
-    // Define text sizes
     const textSizes = [
         { name: 'xs', pixels: '12px' },
         { name: 'sm', pixels: '14px' },
@@ -27,7 +26,6 @@ export default function TextShowcase() {
         { name: '6xl', pixels: '60px' },
     ]
 
-    // Define color variants
     const colorVariants = [
         { name: 'Default (text.default)', value: 'text.default' },
         { name: 'Primary', value: 'brand.primary' },
@@ -39,7 +37,6 @@ export default function TextShowcase() {
         { name: 'Gray 800', value: 'gray.800' },
     ]
 
-    // Define font weight variants
     const fontWeights = [
         { name: 'light', value: 300 },
         { name: 'normal', value: 400 },

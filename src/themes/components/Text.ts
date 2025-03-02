@@ -38,9 +38,7 @@ export const Text = {
         },
     },
 
-    // Variants for different text styles
     variants: {
-        // Normal text
         normal: {},
 
         secondary: {

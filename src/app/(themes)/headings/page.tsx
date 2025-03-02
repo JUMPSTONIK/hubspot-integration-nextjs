@@ -16,7 +16,6 @@ import {
 } from '@chakra-ui/react'
 
 export default function HeadingShowcase() {
-    // Define heading levels and their default sizes
     const headingLevels = [
         { level: 'h1' as const, size: '4xl', pixels: '36px-48px', description: 'Page titles, major section headers' },
         { level: 'h2' as const, size: '3xl', pixels: '30px-36px', description: 'Major section headers, feature titles' },
@@ -26,7 +25,6 @@ export default function HeadingShowcase() {
         { level: 'h6' as const, size: 'md', pixels: '16px-18px', description: 'The smallest heading level' },
     ]
 
-    // Define color variants
     const colorVariants = [
         { name: 'Default (text.default)', value: 'text.default' },
         { name: 'Primary', value: 'brand.primary' },
@@ -36,7 +34,6 @@ export default function HeadingShowcase() {
         { name: 'Gray 700', value: 'gray.700' },
     ]
 
-    // Define font weight variants
     const fontWeights = [
         { name: 'medium', value: 500 },
         { name: 'semibold', value: 600 },
@@ -44,7 +41,6 @@ export default function HeadingShowcase() {
         { name: 'extrabold', value: 800 },
     ]
 
-    // Define heading variants from the theme
     const headingVariants = [
         { name: 'standard', description: 'Default heading style' },
         { name: 'section', description: 'With bottom border for section headers' },
@@ -74,7 +70,7 @@ export default function HeadingShowcase() {
                     <VStack align="stretch" spacing={8} bg="gray.50" p={6} borderRadius="md">
                         {headingLevels.map((heading) => (
                             <Box key={heading.level}>
-                                <Flex align="center" justify="space-between" mb={2}>
+                                <Flex align="center" justify="space-between" mb={2} wrap="wrap">
                                     <Badge colorScheme="blue" fontSize="sm" px={2}>
                                         {heading.level} | size={heading.size} ({heading.pixels})
                                     </Badge>

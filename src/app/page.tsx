@@ -24,6 +24,9 @@ export default function Home() {
         <Link as={NextLink} href="/headings">
           Headings
         </Link>
+        <Link as={NextLink} href="/form">
+          Form
+        </Link>
       </VStack>
 
       <Text fontSize="sm" color="gray.500" mt={10}>
