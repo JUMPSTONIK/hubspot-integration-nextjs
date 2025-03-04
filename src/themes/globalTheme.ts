@@ -4,6 +4,7 @@ import { Input } from "./components/Input";
 import { FormLabel } from "./components/Label";
 import { Link } from "./components/Link";
 import { NumberInput } from "./components/NumberInput";
+import { Table } from "./components/Table";
 import { Text } from "./components/Text";
 import { Textarea } from "./components/TextArea";
 
@@ -27,7 +28,8 @@ export const globalTheme = {
         Input,
         NumberInput,
         Textarea,
-        FormLabel
+        FormLabel,
+        Table,
     },
     colors: {
         brand: {
