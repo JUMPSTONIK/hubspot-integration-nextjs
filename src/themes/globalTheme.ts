@@ -1,10 +1,13 @@
+import { Accordion } from "./components/Accordion";
 import { Button } from "./components/Button";
 import { Heading } from "./components/Heading";
 import { Input } from "./components/Input";
 import { FormLabel } from "./components/Label";
 import { Link } from "./components/Link";
 import { NumberInput } from "./components/NumberInput";
+import { Select } from "./components/Select";
 import { Table } from "./components/Table";
+import { Tabs } from "./components/Tabs";
 import { Text } from "./components/Text";
 import { Textarea } from "./components/TextArea";
 
@@ -27,9 +30,12 @@ export const globalTheme = {
         Heading,
         Input,
         NumberInput,
+        Select,
         Textarea,
         FormLabel,
         Table,
+        Accordion,
+        Tabs
     },
     colors: {
         brand: {

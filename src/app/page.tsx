@@ -30,6 +30,12 @@ export default function Home() {
         <Link as={NextLink} href="/table">
           Table
         </Link>
+        <Link as={NextLink} href="/accordions">
+          Accordions
+        </Link>
+        <Link as={NextLink} href="/icons">
+          Icons
+        </Link>
       </VStack>
 
       <Text fontSize="sm" color="gray.500" mt={10}>
