@@ -57,6 +57,11 @@ export default function Home() {
             Icons
           </Link>
         </GridItem>
+        <GridItem>
+          <Link as={NextLink} href="/tabs">
+            Tabs
+          </Link>
+        </GridItem>
       </Grid>
 
       <Text fontSize="sm" color="gray.500" mt={10}>
